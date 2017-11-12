@@ -1,0 +1,25 @@
+/*set all divs on page to border box*/
+* {
+	box-sizing: border-box;
+}
+
+/* set background color, font family, and text color*/
+body {
+	background-color: darkorange;
+	font-family: Tahoma;
+	color: grey;
+	color: darkred;
+}
+
+/*set all divs that start with class col-
+to background color orange, border 5px solid darkred*/
+[class*="col-"] {
+    background-color: orange;
+	border: 5px solid darkred;
+
+}
+
+/*set h1 to center*/
+h1 {
+	text-align: center;
+}
